@@ -15,6 +15,29 @@
         <link rel="stylesheet" href="css/leaflet.photon.css">
         <link rel="stylesheet" href="css/leaflet-measure.css">
         <style>
+			#title-container {
+    position: absolute;
+    top: 10px;
+    left: 15px;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    background: rgba(255,255,255,0.9);
+    padding: 8px 15px;
+    border-radius: 12px;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.3);
+}
+
+#logo-title {
+    width: 250px;
+    height: auto;
+    margin-right: 250px;
+}
+
+#title-container h1 {
+    margin: 0;
+    font-size: 20px;
+}
         html, body, #map {
             width: 100%;
             height: 100%;
@@ -22,6 +45,8 @@
             margin: 0;
         }
         </style>
+		<img src="san.roque.municipio.png" alt="Logo Municipio" id="logo-title">
+		<div id="title-text">
         <title>Geoportal San Roque Municipio</title>
     </head>
     <body>
